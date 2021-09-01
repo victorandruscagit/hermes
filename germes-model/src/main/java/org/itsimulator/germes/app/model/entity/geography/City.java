@@ -7,7 +7,7 @@ import org.itsimulator.germes.app.model.entity.base.AbstractEntity;
 
 /**
  * Any locality that contains transport stations
- * @author admin
+ * @author Andrusca
  *
  */
 public class City extends AbstractEntity {	
