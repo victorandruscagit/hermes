@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/germes.iml" filepath="$PROJECT_DIR$/germes.iml" />
       <module fileurl="file://$PROJECT_DIR$/germes-model/germes-model.iml" filepath="$PROJECT_DIR$/germes-model/germes-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/germes-persistence/germes-persistence.iml" filepath="$PROJECT_DIR$/germes-persistence/germes-persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/germes-presentation/germes-presentation.iml" filepath="$PROJECT_DIR$/germes-presentation/germes-presentation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sources-1-20.iml" filepath="$PROJECT_DIR$/sources-1-20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/germes-model/src/main/main.iml" filepath="$PROJECT_DIR$/germes-model/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/germes-model/src/test/test.iml" filepath="$PROJECT_DIR$/germes-model/src/test/test.iml" />
     </modules>
   </component>
 </project>

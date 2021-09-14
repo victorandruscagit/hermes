@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1cdc44e-0389-4b25-b56c-d8dcc091ea0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/germes-model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" afterDir="false" />
+    <list default="true" id="69cff5e9-2b77-43e5-a375-25dae0168e19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/infra/util/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/germes-model/germes-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/germes-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/itsimulator/germes/app/model/entity/base/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/base/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/itsimulator/germes/app/model/entity/geography/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/itsimulator/germes/app/model/entity/geography/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/itsimulator/germes/app/model/entity/geography/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/itsimulator/germes/app/model/entity/geography/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/geography/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/itsimulator/germes/app/model/entity/person/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/person/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/itsimulator/germes/app/model/entity/transport/TransportType.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/transport/TransportType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/main/java/org/itsimulator/germes/app/model/entity/geography/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/germes-model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/germes-model/src/test/java/org/itsimulator/germes/app/model/entity/geography/CityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/germes-persistence/germes-persistence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/germes-persistence/germes-persistence.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/germes-presentation/germes-presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/germes-presentation/germes-presentation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/germes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/germes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources-1-20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sources-1-20.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,107 +34,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1xXXszpwzpsTi6mzNLyt4TxNXUy" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
+  <component name="ProjectId" id="1y4aneKzqedJSd3Yr9V1lIOu3VX" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.itsimulator.germes.app.model.entity.geography" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="CityTest.testAddValidStationSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="germes-model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.itsimulator.germes.app.model.entity.geography.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.itsimulator.germes.app.model.entity.geography" />
-      <option name="MAIN_CLASS_NAME" value="org.itsimulator.germes.app.model.entity.geography.CityTest" />
-      <option name="METHOD_NAME" value="testAddValidStationSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CityTest.testAddValidStationSuccess" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c1cdc44e-0389-4b25-b56c-d8dcc091ea0e" name="Default Changelist" comment="" />
-      <created>1630502617448</created>
+      <changelist id="69cff5e9-2b77-43e5-a375-25dae0168e19" name="Changes" comment="" />
+      <created>1631513483344</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1630502617448</updated>
+      <updated>1631513483344</updated>
+      <workItem from="1631513484750" duration="953000" />
+      <workItem from="1631515436266" duration="12233000" />
     </task>
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="631" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1630503585753">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="631" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630503585753" />
-    <state x="730" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1630503586818">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="730" y="401" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1630503586818" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1630503832201">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1630503832201" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1630503832200">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1630503832200" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1630503832200">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1630503832200" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1630503832201">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1630503832201" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1630503134089">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630503134089" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1630503644886">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1630503644886" />
-    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1630503642869">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630503642869" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1630503091608">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630503091608" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
