@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="germes-persistence" />
         <module name="germes-presentation" />
+        <module name="germes-persistence" />
+        <module name="germes-services" />
         <module name="germes-model" />
       </profile>
     </annotationProcessing>

@@ -9,6 +9,7 @@
 		<module>germes-presentation</module>
 		<module>germes-model</module>
 		<module>germes-persistence</module>
+		<module>germes-services</module>
 	</modules>
 
 	<properties>
