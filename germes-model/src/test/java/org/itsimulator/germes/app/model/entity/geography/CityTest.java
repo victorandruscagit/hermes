@@ -8,18 +8,18 @@ import static org.junit.Assert.*;
 
 /**
  * Contains unit-tests to check functionality of {@link City} class
- * 
- * @author Morenets
+ *
+ * @author Andrusca
  *
  */
 public class CityTest {
 	private City city;
-	
+
 	@Before
 	public void setup() {
 		city = new City("Odessa");
 	}
-	
+
 	@Test
 	public void testAddValidStationSuccess() {
 		Station station = city.addStation(TransportType.AUTO);
@@ -38,7 +38,7 @@ public class CityTest {
 	@Test
 	public void testRemoveStationSuccess() {
 		Station station = city.addStation(TransportType.AVIA);
-		
+
 		city.removeStation(station);
 
 		assertTrue(city.getStations().isEmpty());
@@ -50,7 +50,7 @@ public class CityTest {
 
 		assertTrue(false);
 	}
-	
+
 	private boolean containsStation(City city, Station station) {
 		return city.getStations().contains(station);
 	}
