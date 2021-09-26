@@ -14,7 +14,7 @@ import org.itsimulator.germes.app.service.GeographicService;
  */
 public class GeographicServiceImpl implements GeographicService {
 	/**
-	 * Internal list of cities
+	 * Internal list of CityResource
 	 */
 	private final List<City> cities;
 	
